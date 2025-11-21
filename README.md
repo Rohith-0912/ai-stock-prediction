@@ -18,6 +18,7 @@ It includes a trained deep learning model, a Streamlit app, and a Jupyter notebo
 📓 Jupyter notebook for research & experimentation
 
 📁 Project Structure
+
 Stock_Market_Prediction/
 │── app.py                  # Main Streamlit dashboard
 │── stock_prediction.keras   # Trained ML model
