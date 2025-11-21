@@ -6,10 +6,15 @@ It includes a trained deep learning model, a Streamlit app, and a Jupyter notebo
 🚀 Features:
 
 📈 Deep Learning–based stock price prediction (LSTM model)
+
 ⚡ Real-time market data fetching via yFinance
+
 🧠 Business Intelligence metrics and trend analysis
+
 🔎 Risk score estimation
+
 📉 Interactive dashboard built with Streamlit
+
 📓 Jupyter notebook for research & experimentation
 
 📁 Project Structure:
