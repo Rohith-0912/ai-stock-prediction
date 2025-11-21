@@ -23,26 +23,39 @@ Stock_Market_Prediction/
 🏗️ Tech Stack:
 
 Python
+
 TensorFlow / Keras
+
 Scikit-Learn
+
 Streamlit
+
+
 Pandas, NumPy
+
 yFinance
+
 Matplotlib / Plotly
 
 ▶️ How to Run the Project:
 
 Install dependencies:
+
 pip install streamlit tensorflow scikit-learn yfinance pandas numpy plotly matplotlib
 
 Run the dashboard:
+
 streamlit run app.py
 
 🎯 Purpose of the Project:
 This project demonstrates:
 
 Predictive analytics in finance
+
 Real-time monitoring using APIs
+
 Risk analysis & intelligence generation
+
 Model deployment using Streamlit
+
 Practical end-to-end ML workflow
