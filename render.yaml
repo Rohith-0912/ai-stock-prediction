@@ -2,6 +2,6 @@ services:
   - type: web
     name: stock-predictor
     env: python
-    pythonVersion: 3.12.17
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run app.py --server.port $PORT --server.address 0.0.0.0"
+    pythonVersion: "3.12.17"
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
