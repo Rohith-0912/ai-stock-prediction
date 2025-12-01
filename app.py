@@ -10,7 +10,7 @@ from datetime import datetime
 import plotly.graph_objs as go
 
 st.set_page_config(page_title="Stock Price Predictor", layout="wide")
-st.title("📈 Stock Price Predictor App")
+st.title("📈 Stock Price Predictor ")
 
 # --------------------------------------------------------
 # INPUT
@@ -27,7 +27,7 @@ if google_data.empty:
     st.stop()
 
 # Load model
-model = load_model(r"C:\Users\rohit\Desktop\Stock_Market_Prediction_ML\stock_prediction.keras")
+model = load_model("stock_prediction.keras")
 
 st.subheader("📊 Stock Data")
 st.dataframe(google_data)
